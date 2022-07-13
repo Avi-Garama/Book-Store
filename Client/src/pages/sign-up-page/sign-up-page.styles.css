@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.signup-container {
+    min-width: 30vw;
+    min-height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+.signup {
+    width: 30vw;
+    min-width: 300px;
+}
+
+.sign {
+    margin-top: -30px;
+    margin-bottom: 40px;
+}

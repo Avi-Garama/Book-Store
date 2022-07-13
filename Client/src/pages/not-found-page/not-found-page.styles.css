@@ -1,0 +1,29 @@
+.not-found-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 120px);
+    font-size: 60px;
+    flex-direction: column;
+}
+
+.link-not-found {
+    color: white;
+}
+
+.btn-not-found {
+    display: block;
+    height: 40px;
+    min-width: 20vw;
+    border-radius: 4px;
+    border-color: #F1F2F2;
+    background-color: #00bfff;
+    color: #ffffff;
+    border: none;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.btn-not-found:hover {
+    background-color: #63d4fa;
+}

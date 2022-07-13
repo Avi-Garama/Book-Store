@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #3B3A3A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #FFFFF0;
+    /* position: absolute;
+    bottom: 0; */
+}

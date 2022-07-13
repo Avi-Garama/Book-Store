@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.book-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: calc(100vh - 170px);
+    flex-wrap: wrap;
+}
+
+.book-page-tittle {
+    font-size: 35px;
+    text-align: center;
+    margin: 24px 0;
+}
+
+.img-book-page {
+    max-width: 300px;
+    max-height: 520px;
+    border-radius: 12px;
+}
+
+.book-page-details {
+    width: 1000px;
+    min-height: 300px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.details {
+    display: flex;
+    margin-top: -30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.details p {
+    font-size: 25px;
+    margin: 10px;
+}

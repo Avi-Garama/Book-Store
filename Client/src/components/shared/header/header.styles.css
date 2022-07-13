@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-height: 100px;
+    background-color: #3B3A3A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #FFFFF0;
+    padding: 5px;
+    /* position: fixed;
+    top: 0; */
+}
+
+.hamburger-container {
+    width: 50px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.hamburger-line {
+    height: 4px;
+    border-radius: 4px;
+    background-color: #FFFFF0;
+}
+
+.logo a {
+    color: #FFFFF0;
+}
